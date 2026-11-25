@@ -12,6 +12,9 @@ VALID_CATEGORIES = {
 
 def validate_amount(value):
     """Check that the amount is a positive number."""
+    if isinstance(value, bool):
+        return False
+
     try:
         amount = float(value)
         return amount > 0
