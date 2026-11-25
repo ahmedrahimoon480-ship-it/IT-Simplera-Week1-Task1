@@ -1,4 +1,5 @@
 
+
 from datetime import datetime
 
 VALID_CATEGORIES = {
@@ -12,6 +13,8 @@ VALID_CATEGORIES = {
 
 def validate_amount(value):
     """Check that the amount is a positive number."""
+
+    # Boolean values are not valid expense amounts
     if isinstance(value, bool):
         return False
 
