@@ -45,6 +45,17 @@ Week1_Task1_AhmedRahimoon/
 ├── requirements.txt
 └── README.md
 ```
+Example Usage
+
+When you run the application, you can:
+
+1. Select an option from the main menu.
+2. Add an expense with its date, category, amount, and description.
+3. View and filter recorded expenses.
+4. Set monthly budgets.
+5. Check budget alerts and spending analytics.
+
+The application runs directly in the terminal.
 
 ## How to Run
 
